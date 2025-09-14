@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nathaniel's Portfolio Web</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <nav class="nav">
+      <ul class="nav-container">
+        <li>
+            <a href="#hero" class="nav-list">Home</a>
+        </li>
+        <li>
+            <a href="#experiences" class="nav-list">Projects</a>
+        </li>
+        <li>
+            <a href="#experiences" class="nav-list">Experiences</a>
+        </li>
+        <li>
+            <a href="#achievements" class="nav-list">Achievements</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <!-- Hero Section -->
+    <section id="hero">
+      <div class="hero-container">
+        <img src="images/self-photo.png" alt="Self Photo" class="self-photo" />
+        <div class="hero-text">
+            <p class="hero-name">I'm Nathaniel</p>
+            <p class="hero-role">An aspiring financial engineer.</p>
+            <p class="hero-description">This portfolio showcases my experiences,</p>
+            <p class="hero-description">projects, and achievements.</p>
+        <div>
+        <button class="hero-button">
+            <a href="#experiences">
+                Get to Know Me
+            </a>
+        </button>
+      </div>
+    </section>
+    <!-- Experiences Section -->
+    <section id="experiences">
+        <div class="experiences-container">
+            <p class="experiences-title">
+                Here are some of my experiences.
+            </p>
+            <p class="experiences-description">
+                I am currently a junior at Institut Teknologi Bandung majoring in
+            </p>
+            <p class="experiences-description">
+                Informatics Engineering and very passionate in finance and ML/AI.
+            </p>
+            <p class="experiences-description">
+                I've participated in several related organizations.
+            </p>
+            <ul class="experiences-card-container">
+                <li class="experiences-card">
+                    <img src="images/logo-ffi.png" alt="Logo FFI" class="experiences-card-logo" />
+                    <div>
+                        <p class="experiences-card-title">
+                            Finance for Indonesia
+                        </p>
+                        <p class="experiences-card-role">
+                            Incubation Program 2 Mentee
+                        </p>
+                    </div>
+                </li>
+                <li class="experiences-card">
+                    <img src="images/logo-gendigital.png" alt="Logo GenDigital" class="experiences-card-logo" />
+                    <div>
+                        <p class="experiences-card-title">
+                            GenDigital Academy
+                        </p>
+                        <p class="experiences-card-role">
+                            Vice President of Bandung
+                        </p>
+                    </div>
+                </li>
+            </ul>
+            <ul class="experiences-card-container">
+                <li class="experiences-card">
+                    <img src="images/logo-ksep-monochrome.png" alt="Logo KSEP" class="experiences-card-logo" />
+                    <div>
+                        <p class="experiences-card-title">
+                            KSEP ITB
+                        </p>
+                        <p class="experiences-card-role">
+                            Director of RnCD
+                        </p>
+
+                    </div>
+                </li>
+                <li class="experiences-card">
+                    <img src="images/logo-ptd-monochrome.png" alt="Logo PTD" class="experiences-card-logo" />
+                    <div>
+                        <p class="experiences-card-title">
+                            PTD KSEP ITB
+                        </p>
+                        <p class="experiences-card-role">
+                            Director of Education
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="projects-container">
+            <p class="projects-title">
+                You should also check out my projects.
+            </p>
+            <p class="projects-description">
+                I've worked on several projects, ranging from web development to option pricing.
+            </p>
+            <ul class="projects-card-container">
+                <li class="projects-card">
+                    <a href="https://pasarseniitb.com/" target="_blank" rel="noopener noreferrer">
+                        <img src="images/pasar-seni-image.png" alt="Pasar Seni Project" class="projects-card-image" />
+                        <div class="projects-card-content">
+                            <p class="projects-card-title">
+                                Pasar Seni ITB Website
+                            </p>
+                            <p class="projects-card-description">
+                                A responsive portfolio website built for ITB's Pasar Seni Event using Next (as a full stack engineer).
+                            </p>
+                        </div>
+                    </a>
+                </li>
+                <li class="projects-card">
+                    <a href="https://github.com/0xNathaniel/Tucil3_13523013_13523040" target="_blank" rel="noopener noreferrer">
+                        <img src="images/rush-hour-puzzle-image.png" alt="Puzzle Solver Project" class="projects-card-image" />
+                        <div class="projects-card-content">
+                            <p class="projects-card-title">
+                                Puzzle Solver
+                            </p>
+                            <p class="projects-card-description">
+                                Rush hour puzzle solver using pathfinding algorithm and JavaFX as its GUI.
+                            </p>
+                        </div>
+                    </a>
+                </li>
+                <li class="projects-card">
+                    <a href="https://informatika.stei.itb.ac.id/~rinaldi.munir/Stmik/2024-2025/Makalah2025/Makalah-IF2211-Strategi-Algoritma-2025%20(175).pdf" target="_blank" rel="noopener noreferrer">
+                        <img src="images/bopm-image.png" alt="Option Pricing Project" class="projects-card-image" />
+                        <div class="projects-card-content">
+                            <p class="projects-card-title">
+                                Stock Option Pricing
+                            </p>
+                            <p class="projects-card-description">
+                                A paper on utilization of dynamic programming to price stock options using the Binomial Model.
+                            </p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- Achievement Section -->
+    <section id="achievements">
+        <div class="achievements-container">
+            <p class="achievements-title">
+                I also have several achievements.
+            </p>
+            <p class="achievements-description">
+                Here is a list of achievements that I'm proud of,
+            </p>
+            <p class="achievements-description" style="margin-bottom: 30px;">
+                spanning from scholarship, investments, and consulting.
+            </p>
+            <ul class="achievements-list-container">
+                <li class="achievements-list">
+                    Bakti BCA Scholarship Awardee
+                </li>
+                <li class="achievements-list">
+                    1st Winner of Talent Growth x Markplus National Business Case Competition
+                </li>
+                <li class="achievements-list">
+                    1st Winner of StudentsxCEOs Global Summit Business Case Competition
+                </li>
+                <li class="achievements-list">
+                    1st Winner of ASE Investment Competition
+                </li>
+                <li class="achievements-list">
+                    3rd Winner of Investing Analysis Competition by ITB Investment, KM ITB
+                </li>
+            </ul>
+        </div>
+    </section>
+  </main>
+  <footer>
+    <div>
+        <p class="contact-title">
+            Learn more about me and my projects!
+        </p>
+    </div>
+    <div class="contact-container">
+        <li class="nav-list"></li>
+            <a href="https://www.instagram.com/omgitsnathaniel/" class="nav-bar-link" target="_blank" rel="noopener noreferrer">
+                <img src="images/logo-instagram.png" alt="Instagram Logo" class="instagram-logo">
+            </a>
+        </li>
+        <li class="nav-list"></li>
+            <a href="https://www.linkedin.com/in/nathanieljr/" class="nav-bar-link" target="_blank" rel="noopener noreferrer">
+                <img src="images/logo-linkedin.png" alt="Linkedin Logo" class="linkedin-logo">
+            </a>
+        </li>
+        <li class="nav-list"></li>
+            <a href="https://github.com/0xNathaniel/" class="nav-bar-link" target="_blank" rel="noopener noreferrer">
+                <img src="images/logo-github.png" alt="GitHub Logo" class="github-logo">
+            </a>
+        </li>
+    </div>
+  </footer>
+</body>
