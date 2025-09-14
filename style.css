@@ -524,6 +524,10 @@ body {
     margin: 10px 0;
   }
 
+  .contact-title {
+    color: white;
+  }
+
   .contact-container {
     padding-right: 50px;
   }
