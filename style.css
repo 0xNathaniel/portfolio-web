@@ -525,7 +525,7 @@ body {
   }
 
   .contact-title {
-    color: white;
+    font-size: 0;
   }
 
   .contact-container {
